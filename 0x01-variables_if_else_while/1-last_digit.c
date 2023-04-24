@@ -1,8 +1,9 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+
 /**
- * main - A program that prints last digit of the number stored
+ * main - Entry point
  *
  * Return: Always 0 (SUCCESS)
  */
