@@ -8,17 +8,12 @@
  * Return: A pointer to the destination buffer
  */
 char *_memcpy(char *dest, char *src, unsigned int n)
-{
+	{
 	unsigned int i;
 
-	i = 0;
-	while (i < n)
+	for (i = 0; i < n; i++)
 	{
-		*(dest + i) = *(src + i); 1
-		i++;
-
+		dest[i] = src[i];
 	}
-
-
 	return (dest);
 }
